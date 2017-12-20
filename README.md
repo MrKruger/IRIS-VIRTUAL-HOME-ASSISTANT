@@ -35,7 +35,6 @@ Iris pedir comida!                    |
 ## Instalação e Configuração do Hardware (se houver)
 
 * **SONOFF**: Para realizar os acionamentos, Iris se utiliza de um dispositivo chamado Sonoff. Nele contém um dispositivo eletrônico chamado ESP8266 que possibilita uma comunicação WiFi entre ele e o computador. Originalmente o Sonoff realiza os acionamentos via aplicativo de fábrica disponível na PlayStore chamado "eWeLink", dessa forma não seria possível estabelecer uma comunicação entre Iris e o Sonoff. Então, foi necessário realizar a alteração do firmware para que essa comunicação fosse possível. O firmware utiliza o protocolo de comunicação MQTT (M2M), cujo qual se utiliza de um Broker (servidor) que recebe as requisições chamadas de Publish (publicações) dos Subscribers (clientes) através de Topics (tópicos) que são endereços específicos publicados pelos clientes e direcionados para comunicação com o Broker.: 
-
 => O firmware está disponível em: https://github.com/arendst/Sonoff-Tasmota
 => O Sonoff está disponível em: https://www.amazon.com/Sonoff-Wireless-Remote-Switch-Automation/dp/B01IF1H1TI
 => Vídeo para instalação do firmware: https://www.youtube.com/watch?v=n4MDRm2yAJg
@@ -43,7 +42,6 @@ Iris pedir comida!                    |
 * **CONEXÃO DO HARDWARE**: Para conectar o Sonoff é bem simples, basta colocar a entrada (input) em qualquer tomada (que atenda a faixa de operação indicada) e a saída (output) no objeto eletro-eletrônico que se deseja acionar.                                             
 
 * **CONEXÃO DO WIFI**: Para realizar a conexão do WiFi, basta baixar o aplicativo "ESP8266 SmartConfig" na PlayStore ou AppleStore e colocar a senha de sua rede interna na caixa de opção "password" que irá aparecer no smartphone e simultaneamente pressionar o botão acima do sonoff de forma breve 3 vezes.
-
 OBS: Para verificar se o Sonoff está conectado à rede, basta baixar aplicativo "Fing" na PlayStore ou na AppleStore, conectar com seu WiFi e realizar uma varredura da rede interna. Se o Sonoff estiver conectado na rede, além dos outros dispositivos conectados no WiFi, irá aparecer algo parecido com o nome "Light Espressif" juntamente com o endereço de IP que o Sonoff assumiu, algo como "192.168.25.10"
 ou "10.0.0.115" dependendo do seu provedor de internet.
 Além disso, o firmware permite que uma página de controle Web seja criada assim que o Sonoff é conectado a rede, então para acessá-la, basta conectar seu Sonoff e verificar o endereço de IP que ele assumiu. Depois, abra um navegador qualquer e digite o IP do Sonoff. Logo irá aparecer uma página para controlar o Sonoff via Web.
@@ -57,7 +55,6 @@ git clone https://github.com/MrKruger/IRIS-VIRTUAL-HOME-ASSISTANT.git
 ```
 
 * **BAIXAR O PYTHON**: Baixe e instale a última versão da linguagem python pelo site oficial. Não se esqueça de deixar a opção "Add Python 3.6 to PATH" marcada.: https://www.python.org/downloads/.
-
 OBS: Iris tem uma função para enviar emails com o módulo SMTP cujo qual funcionou apenas nas versões do Python 2.7 e 3.5 (de acordo com testes realizados por mim), dessa forma, se a opção de enviar emails for desejada, é indicado que o usuário impreterívelmente baixe a versão do Python 3.5.
 
 * **BAIXAR OS MÓDULOS NECESSÁRIOS**: Para que Iris funcione corretamente é necessário instalar os móduclos adicionais que estão no arquivo Requirements.txt. Para fazer isso você precisa abrir o terminal ou cmd na pasta aonde se encontra o arquivo e digitar o seguinte comando.:
@@ -78,5 +75,4 @@ python Iris_VHA.py
 ```
 
 O código será executado.
-
 É isso, boa diversão!    
