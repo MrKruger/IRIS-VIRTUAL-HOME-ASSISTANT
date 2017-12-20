@@ -36,11 +36,11 @@ Iris pedir comida!                    |
 
 * **SONOFF**: Para realizar os acionamentos, Iris se utiliza de um dispositivo chamado Sonoff. Nele contém um dispositivo eletrônico chamado ESP8266 que possibilita uma comunicação WiFi entre ele e o computador. Originalmente o Sonoff realiza os acionamentos via aplicativo de fábrica disponível na PlayStore chamado "eWeLink", dessa forma não seria possível estabelecer uma comunicação entre Iris e o Sonoff. Então, foi necessário realizar a alteração do firmware para que essa comunicação fosse possível. O firmware utiliza o protocolo de comunicação MQTT (M2M), cujo qual se utiliza de um Broker (servidor) que recebe as requisições chamadas de Publish (publicações) dos Subscribers (clientes) através de Topics (tópicos) que são endereços específicos publicados pelos clientes e direcionados para comunicação com o Broker.: 
 
-=>  O firmware está disponível em: https://github.com/arendst/Sonoff-Tasmota 
+  O firmware está disponível em: https://github.com/arendst/Sonoff-Tasmota 
 
-=>  O Sonoff está disponível em: https://www.amazon.com/Sonoff-Wireless-Remote-Switch-Automation/dp/B01IF1H1TI
+  O Sonoff está disponível em: https://www.amazon.com/Sonoff-Wireless-Remote-Switch-Automation/dp/B01IF1H1TI
 
-=>  Vídeo para instalação do firmware: https://www.youtube.com/watch?v=n4MDRm2yAJg
+  Vídeo para instalação do firmware: https://www.youtube.com/watch?v=n4MDRm2yAJg
 
 * **CONEXÃO DO HARDWARE**: Para conectar o Sonoff é bem simples, basta colocar a entrada (input) em qualquer tomada (que atenda a faixa de operação indicada) e a saída (output) no objeto eletro-eletrônico que se deseja acionar.                                             
 
@@ -82,4 +82,5 @@ python Iris_VHA.py
 ```
 
 O código será executado.
+
 É isso, boa diversão!    
