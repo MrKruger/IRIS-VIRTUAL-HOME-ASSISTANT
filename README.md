@@ -2,7 +2,7 @@
 
 IrisVHA é uma Assistente Virtual Residencial com interação por voz. Com ela é possível realizar acionamentos de eletrodomésticos, lâmpadas e outros tipos de objetos eletro-eletrônicos que são encontrados dentro de uma residência comum. Sua faixa de operação de tensão funciona entre 90-250V AC com uma faixa de frequência entre 50/60Hz e com corrente máxima de 10A. Iris ainda é capaz de reconhecer comandos de voz pré-configurados que adiconam funcionalidades à ela como é demonstrado na tabela á seguir:
 
-|                          ***TABELA DE COMANDOS IRIS***                            |
+|                           **TABELA DE COMANDOS IRIS**                             |
 |          **COMANDOS DE AÇÕES**          |         **COMANDOS DE DIÁLOGO**         |
 |=> Iris ligar agora!                     |=> Olá Iris!                             |
 |=> Iris desligar agora!                  |=> Gostaria de saber como você está?     |
