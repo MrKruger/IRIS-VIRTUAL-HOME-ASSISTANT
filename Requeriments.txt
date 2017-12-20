@@ -1,0 +1,5 @@
+SpeechRecognition
+paho-mqtt
+gtts
+playsound
+opencv-python
