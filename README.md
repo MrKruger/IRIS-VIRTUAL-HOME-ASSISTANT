@@ -2,13 +2,34 @@
 
 IrisVHA é uma Assistente Virtual Residencial com interação por voz. Com ela é possível realizar acionamentos de eletrodomésticos, lâmpadas e outros tipos de objetos eletro-eletrônicos que são encontrados dentro de uma residência comum. Sua faixa de operação de tensão funciona entre 90-250V AC com uma faixa de frequência entre 50/60Hz e com corrente máxima de 10A. Iris ainda é capaz de reconhecer comandos de voz pré-configurados que adiconam funcionalidades à ela como é demonstrado na tabela á seguir:
 
-Alimentos | Preço
---------- | ------
-Arroz     | R$ 10
-Feijão    | R$ 8
-Batata    | R$ 7
-Macarrão  | R$ 8
-
+COMANDOS DE AÇÕES                     | COMANDOS DE DIÁLOGO     
+------------------------------------- | -------------------------------------
+Iris ligar agora!                     | Olá Iris!                            
+Iris desligar agora!                  | Gostaria de saber como você está?     
+Iris que horas são?                   | Eu estou bem obrigado!                 
+Iris que dia é hoje?                  | Obrigado Iris...                       
+Iris previsão do tempo!               | Quem é você?                          
+Iris pesquisar!                       | Você é muito inteligente...           
+Iris futebol!                         | Até logo Iris...                       
+Iris definir rota!                    |                                       
+Iris programar tempo para ligar!      |                                        
+Iris programar tempo para desligar!   |                                       
+Iris reconhecimento escrito!          |                                       
+Iris cotação de moedas!               |                                       
+Dólar Americano                       |                                       
+Dólar Canadense                       |                                        
+Dólar Australiano                     |                                       
+Euro                                  |                                       
+Libra                                 |                                       
+Iris bolsa de valores!                |                                       
+Iris notícias!                        |                                       
+Iris enviar email!                    |                                       
+Iris criptografia!                    |                                       
+Iris descriptografia!                 |                                      
+Iris devocional diário!               |                                      
+Iris bíblia online!                   |                                      
+Iris ativar câmera!                   |                                       
+Iris pedir comida!                    |   
                                                       
 
 ## Instalação e Configuração do Hardware (se houver)
