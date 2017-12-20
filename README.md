@@ -1,6 +1,6 @@
 # IrisVHA
 
-IrisVHA é uma Assistente Virtual Residencial com interação por voz. Com ela é possível realizar acionamentos de eletrodomésticos, lâmpadas e outros tipos de objetos eletro-eletrônicos que são encontrados dentro de uma residência comum. Sua faixa de operação de tensão funciona entre 90-250V AC com uma faixa de frequência entre 50/60Hz e com corrente máxima de 10A. Iris ainda é capaz de reconhecer comandos de voz pré-configurados que adiconam funcionalidades à ela como é demonstrado na tabela á seguir:
+IrisVHA é uma Assistente Virtual Residencial com interação por voz. Com ela é possível realizar acionamentos de eletrodomésticos, lâmpadas e outros tipos de objetos eletro-eletrônicos que são encontrados dentro de uma residência comum. Sua faixa de operação de tensão funciona entre 90-250V AC com uma faixa de frequência entre 50/60Hz e com corrente máxima de 10A. Iris ainda é capaz de reconhecer comandos de voz pré-configurados que adicionam funcionalidades à ela como é demonstrado na tabela á seguir:
 
 COMANDOS DE AÇÕES                     | COMANDOS DE DIÁLOGO     
 ------------------------------------- | -------------------------------------
@@ -62,13 +62,14 @@ OBS: Iris tem uma função para enviar emails com o módulo SMTP cujo qual funci
 ```py
 pip install -r Requirements.txt
 ```
-* **CONFIGURAR O MICROFONE**: Iris precisa de um microfone para poder ouvir e entender os comandos voz. Como existem várias entradas e saídas de áudio no computador, é necessário que o usuário selecione qual microfone (entrada de áudio) gostaria de usar. Assim, se torna necessário executar um programa para listar as entradas e saídas de áudio disponíveis no computador aonde Iris está sendo executada. Após a executação do código, será mostrado a lista de microfones disponíveis no computador, juntamente com as saídas de áudio, então o usuário precisa copiar qual microfone deseja utilizar e colar na linha de código do programa principal "Mic_Name = "NOME QUE APARECEU NO IrisMicList.py". É obrigatório copiar e colar o nome exatamente igual conforme apareceu no programa e entre aspas duplas. Para rodar o código, basta executar o seguinte comando.: 
+
+* **CONFIGURAR O MICROFONE**: Iris precisa de um microfone para poder ouvir e entender os comandos de voz. Como existem várias entradas e saídas de áudio no computador, é necessário que o usuário selecione qual microfone (entrada de áudio) gostaria de usar. Assim, se torna necessário executar um programa para listar as entradas e saídas de áudio disponíveis no computador aonde Iris está sendo executada. Após a executação do código, será mostrado a lista de microfones disponíveis no computador, juntamente com as saídas de áudio, então o usuário precisa copiar qual microfone deseja utilizar e colar na linha de código do programa principal "Mic_Name = "NOME QUE APARECEU NA EXECUÇÃO DO ARQUIVO IrisMicList.py". É obrigatório copiar e colar o nome exatamente igual conforme apareceu no programa e entre aspas duplas. Para rodar o código, basta executar o seguinte comando.: 
 
 ```py
 python IrisMicList.py
 ```
 
-* **EXECUTAR O CÓDIGO**: Após baixar e instalar o python juntamente com os módulos necessários, abra o terminal ou o cmd e vá até a pasta aonde se encontra o código fonte já descompactado e digite.:
+* **EXECUTAR O CÓDIGO PRINCIPAL**: Após baixar e instalar o python juntamente com os módulos necessários, abra o terminal ou o cmd e vá até a pasta aonde se encontra o código fonte já descompactado e digite.:
 
 ```py 
 python Iris_VHA.py
