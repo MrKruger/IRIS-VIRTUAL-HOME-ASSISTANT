@@ -54,9 +54,9 @@ ou "10.0.0.115" dependendo do seu provedor de internet.
 
 * **BAIXAR O PROGRAMA**: Para baixar o código, aperte o botão de download ou clone via terminal ou cmd.:
 
-  ```git
-  git clone https://github.com/MrKruger/IRIS-VIRTUAL-HOME-ASSISTANT.git
-  ```
+ ```git
+ git clone https://github.com/MrKruger/IRIS-VIRTUAL-HOME-ASSISTANT.git
+ ```
 
 * **BAIXAR O PYTHON**: Baixe e instale a última versão da linguagem python pelo site oficial. Não se esqueça de deixar a opção "Add Python 3.6 to PATH" marcada.: https://www.python.org/downloads/.
 
@@ -65,21 +65,21 @@ ou "10.0.0.115" dependendo do seu provedor de internet.
 
 * **BAIXAR OS MÓDULOS NECESSÁRIOS**: Para que Iris funcione corretamente é necessário instalar os móduclos adicionais que estão no arquivo Requirements.txt. Para fazer isso você precisa abrir o terminal ou cmd na pasta aonde se encontra o arquivo e digitar o seguinte comando.:
 
-```py
-pip install -r Requirements.txt
-```
+ ```py
+ pip install -r Requirements.txt
+ ```
 
 * **CONFIGURAR O MICROFONE**: Iris precisa de um microfone para poder ouvir e entender os comandos de voz. Como existem várias entradas e saídas de áudio no computador, é necessário que o usuário selecione qual microfone (entrada de áudio) gostaria de usar. Assim, se torna necessário executar um programa para listar as entradas e saídas de áudio disponíveis no computador aonde Iris está sendo executada. Após a executação do código, será mostrado a lista de microfones disponíveis no computador, juntamente com as saídas de áudio, então o usuário precisa copiar qual microfone deseja utilizar e colar na linha de código do programa principal "Mic_Name = "NOME QUE APARECEU NA EXECUÇÃO DO ARQUIVO IrisMicList.py". É obrigatório copiar e colar o nome exatamente igual conforme apareceu no programa e entre aspas duplas. Para rodar o código, basta executar o seguinte comando.: 
 
-```py
-python IrisMicList.py
-```
+ ```py
+ python IrisMicList.py
+ ```
 
 * **EXECUTAR O CÓDIGO PRINCIPAL**: Após baixar e instalar o python juntamente com os módulos necessários, abra o terminal ou o cmd e vá até a pasta aonde se encontra o código fonte já descompactado e digite.:
 
-```py 
-python Iris_VHA.py
-```
+ ```py 
+ python Iris_VHA.py
+ ```
 
 O código será executado.
 
