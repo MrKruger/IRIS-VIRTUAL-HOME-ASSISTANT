@@ -54,9 +54,9 @@ ou "10.0.0.115" dependendo do seu provedor de internet.
 
 * **BAIXAR O PROGRAMA**: Para baixar o código, aperte o botão de download ou clone via terminal ou cmd.:
 
-```git
-git clone https://github.com/MrKruger/IRIS-VIRTUAL-HOME-ASSISTANT.git
-```
+  ```git
+  git clone https://github.com/MrKruger/IRIS-VIRTUAL-HOME-ASSISTANT.git
+  ```
 
 * **BAIXAR O PYTHON**: Baixe e instale a última versão da linguagem python pelo site oficial. Não se esqueça de deixar a opção "Add Python 3.6 to PATH" marcada.: https://www.python.org/downloads/.
 
